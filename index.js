@@ -220,7 +220,7 @@
 	    	return proxy;
 	    };
 	    Array.unobserve = function(object,callback) {
-		  return object.unobserve(callback);
+		  return Object.unobserve(callback);
 	    }
 	}
 	Object.deepObserve = function(object,callback,parts) {
